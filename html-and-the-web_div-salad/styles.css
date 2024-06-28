@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(31, 130, 162);
+}
+
+h1 {
+  color: rgba(8, 0, 255, 0.638);
+}
+
+figure,
+li {
+  color: green;
+}
+
+.button {
+  background-color: yellow;
+}
+
+button:hover {
+  width: 200px;
+  background-color: red;
+}

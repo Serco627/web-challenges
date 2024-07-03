@@ -12,7 +12,7 @@ if (SUPER_SECRET_PASSWORD === receivedPassword) {
 }
 
 // Part 2: Even / Odd
-const number = 9;
+const number = 10;
 if (number % 2 === 0) {
   console.log("Even Number");
 } else {
@@ -46,10 +46,9 @@ const statement = currentHour < 17 ? "Still need to learn..." : "Partytime!!!";
 console.log(statement);
 
 // Part 5: Greeting
-const userName = "Serco";
 
-const greeting = "Hello " + (userName === "Esraa" ? "Coach" : userName) + "!";
+const coachName = "Dominik";
+const randomName = "Serco";
 
+const greeting = "Hello " + (randomName === coachName ? "Coach" : randomName);
 console.log(greeting);
-
-console.log();

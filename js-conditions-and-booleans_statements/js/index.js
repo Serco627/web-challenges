@@ -5,32 +5,14 @@ const SUPER_SECRET_PASSWORD = "Serco123";
 
 const receivedPassword = "passwort123";
 
-// Part 2: Even / Odd
-const number = 9;
-
-// Part 3: Hotdogs
-const numberOfHotdogs = 10000000000;
-
-// Part 4: Daytime
-const currentHour = 12;
-
-const statement = "";
-
-console.log(statement);
-
-// Part 5: Greeting
-const userName = "Serco";
-
-const greeting = "Hello " + (userName === "Esraa" ? "Coach" : userName);
-
-console.log(greeting);
-
 if (SUPER_SECRET_PASSWORD === receivedPassword) {
   console.log("Welcome! You are logged in as Serco627.");
 } else {
   console.log("Access denied!");
 }
 
+// Part 2: Even / Odd
+const number = 9;
 if (number % 2 === 0) {
   console.log("Even Number");
 } else {
@@ -38,6 +20,9 @@ if (number % 2 === 0) {
 }
 
 // console.log(number % 2 === 0 ? "Gerade Zahl" : "Ungerade Zahl");
+
+// Part 3: Hotdogs
+const numberOfHotdogs = 10000000000;
 
 if (numberOfHotdogs >= 10000) {
   console.log("0,10€");
@@ -53,8 +38,18 @@ if (numberOfHotdogs >= 10000) {
   console.log("4€");
 }
 
-const result = currentHour < 17 ? "Still need to learn..." : "Partytime!!!";
+// Part 4: Daytime
+const currentHour = 12;
 
-console.log(result);
+const statement = currentHour < 17 ? "Still need to learn..." : "Partytime!!!";
+
+console.log(statement);
+
+// Part 5: Greeting
+const userName = "Serco";
+
+const greeting = "Hello " + (userName === "Esraa" ? "Coach" : userName);
+
+console.log(greeting);
 
 console.log();

@@ -19,7 +19,7 @@ if (number % 2 === 0) {
   console.log("Odd Number");
 }
 
-// console.log(number % 2 === 0 ? "Gerade Zahl" : "Ungerade Zahl");
+// console.log(number % 2 === 0 ? "Gerade Zahl" : "Ungerade Zahl");git
 
 // Part 3: Hotdogs
 const numberOfHotdogs = 10000000000;
@@ -48,7 +48,7 @@ console.log(statement);
 // Part 5: Greeting
 const userName = "Serco";
 
-const greeting = "Hello " + (userName === "Esraa" ? "Coach" : userName);
+const greeting = "Hello " + (userName === "Esraa" ? "Coach" : userName) + "!";
 
 console.log(greeting);
 

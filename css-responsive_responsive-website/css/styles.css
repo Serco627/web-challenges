@@ -243,7 +243,8 @@ fairly essential to completing this challenge. */
     justify-content: center;
   }
 
-  .product-card, p {
+  .product-card,
+  p {
     max-width: 40%;
   }
 }
@@ -254,52 +255,3 @@ fairly essential to completing this challenge. */
     height: 40vh;
   }
 }
-
-
-/* 
-@media (min-width: 600px) {
-  .card-section {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .product-card,
-  p {
-    max-width: 40%;
-  }
-  p {
-    align-self: flex-start;
-  }
-}
-/* --- */
-
-/* Media Query Desktop */
-/* --- */
-@media (min-width: 900px) {
-  .card-section {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .product-card,
-  p {
-    max-width: 40%;
-  }
-  p {
-    align-self: flex-start;
-  }
-  .--forest {
-    min-width: 100vw;
-    height: 40vh;
-  }
-} */
-/* ==[ MEDIA QUERIES & BREAKPOINTS ]== */
-
-/* Now it's your turn! Here we're using media queries to partially overwrite our
-CSS when certain conditions that we declare are met - such as a certain viewport 
-width, etc. */
-
-/* Media Query Desktop */
-/* --- */
-/* Replace this comment with your media query. */
-/* --- */

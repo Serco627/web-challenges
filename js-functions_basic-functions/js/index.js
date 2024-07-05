@@ -32,6 +32,9 @@ Then log all variables to the console again.
 numberOfSales += 120;
 rating = 10.5;
 
+console.log(numberOfSales);
+console.log(rating);
+
 /*
 3: This code is quite repetitive and hard to read.
  - Write a function called logBookData which console logs all

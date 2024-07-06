@@ -13,10 +13,11 @@ const author = "Mario";
 let rating = 4.2;
 let numberOfSales = 120;
 
-// console.log(`Title: ${bookTitle}`);
-// console.log(`Author: ${author}`);
-// console.log(`Rating: ${rating}`);
-// console.log(`Sales: ${numberOfSales}`);
+console.log(`Title: ${bookTitle}`);
+console.log(`Author: ${author}`);
+console.log(`Rating: ${rating}`);
+console.log(`Sales: ${numberOfSales}`);
+
 /*
 2: Log all variables to the console, for example:
 
@@ -37,10 +38,7 @@ console.log(rating);
 
 /*
 3: This code is quite repetitive and hard to read.
- - Write a function called logBookData which console logs all
-   variables when it is called.
- - Then replace the console logs above with this function.
- - Now increase the number of sales 2 more times and log the data after each increase.
+increase the number of sales 2 more times and log the data after each increase.
 */
 
 function logBookData() {

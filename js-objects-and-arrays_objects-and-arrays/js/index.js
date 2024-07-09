@@ -77,6 +77,16 @@ console.log(mothersNameOfSecondPerson);
 const animaltypeOfLisasPet = people[3].pet.animal;
 console.log(animaltypeOfLisasPet);
 
+console.log(people);
+
+people[0]["other friends"].push({ name: "New Friend", work: "barkeeper" });
+
+people[3].quotes.push("Whats up");
+people[1].kids.push({ name: "Serco", child_number: "fourth" });
+console.log(people[1].kids.pop());
+console.log(people);
+people[3].quotes.push("Hello");
+
 export {
   nameOfFirstPerson,
   homersOtherFriends,

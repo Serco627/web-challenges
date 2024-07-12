@@ -36,7 +36,7 @@ newCard.innerHTML = `
         </div>
       </div>
       <footer class="product__footer">
-        <span class="product__price">"${price}"</span>
+        <span class="product__price">${price}</span>
         <button type="button" class="product__buy-button">Buy</button>
       </footer>
 `;

@@ -37,6 +37,18 @@ footer.append(like);
 
 like.addEventListener("click", handleLikeButtonClick);
 
+// body.innerHTML = `
+// <article class="post">
+//   <p class="post__content">Lorem ipsum dies das</>
+// <footer class="post__footer">
+//   <span class="post__username">@username</span>
+//   <button class="post__button" data-js="like-button">♥ Like</button>
+//   </footer>
+// </article>
+// `;
+// body.append(newPostWithInnerHtml);
+// like.addEventListener("click", handleLikeButtonClick);
+
 // Erstelle die Elemente
 // const newPost = document.createElement("article");
 // const postContent = document.createElement("p");

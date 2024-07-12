@@ -16,7 +16,7 @@ colorRange.addEventListener("input", updateBox);
 
 borderRange.addEventListener("input", updateBox);
 
-rotationRangeRange.addEventListener("input", updateBox);
+rotationRange.addEventListener("input", updateBox);
 
 /*
 

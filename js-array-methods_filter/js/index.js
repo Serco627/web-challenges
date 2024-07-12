@@ -45,7 +45,13 @@ const allCardsThatAreNotBookmarked = cards.filter((card) => {
 });
 console.log(allCardsThatAreNotBookmarked);
 
-const allCardsWithTagsHTMLOrJSThatAreBookmarked = null;
+const allCardsWithTagsHTMLOrJSThatAreBookmarked = cards.filter((card) => {
+  return (
+    card.isBookmarked === true &&
+    (card.tags.includes("html") || card.tags.includes("js"))
+  );
+});
+console.log(allCardsWithTagsHTMLOrJSThatAreBookmarked);
 
 export {
   onlyCardWithIdTwo,

@@ -58,7 +58,6 @@ console.log(timePerServing);
 // myArray.map(...).join(', ');
 
 const allTitlesInOneString = null;
-
 // 'Crepes, Scrambled Eggs, ...'
 // For more information how to join an array,
 // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join#joining_an_array_four_different_ways

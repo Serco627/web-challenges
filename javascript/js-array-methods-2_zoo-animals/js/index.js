@@ -5,10 +5,11 @@ import { zooAnimals } from "../utils/db.js";
 // The function should return 'true' if the animal name is included in the array or 'false' if not.
 
 function hasAnimal(animalArray, animal) {
-  return zooAnimals.includes(animal);
+  const lowerCaseAnimals = animalArray.map((animal) => animal.toLowerCase());
+  return lowerCaseAnimals.includes(animal.toLowerCase());
 }
 
-console.log(hasAnimal(zooAnimals, "Sheep"));
+console.log(hasAnimal(zooAnimals, "KanGaroo"));
 
 // Bonus:
 // Can you modify the function so that it works case-insensitive?

@@ -7,11 +7,6 @@ export default function App() {
     <div>
       <Article />
       <Article />
-      <Article />
-      <Article />
-      <Article />
-      <Article />
-      <Article />
     </div>
   );
 }

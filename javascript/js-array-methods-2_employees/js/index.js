@@ -6,9 +6,7 @@ import { employees } from "../utils/db.js";
 // Check the browser preview and conduct some tests to ensure it works correctly.
 
 function findByLastName(employees, lastName) {
-  // Verwenden der find-Methode, um nach einem Mitarbeiter mit dem gesuchten Nachnamen zu suchen
   return employees.find((employee) => {
-    // Vergleichen des Nachnamens des aktuellen Mitarbeiters mit dem gesuchten Nachnamen
     return employee.lastName === lastName;
   });
 }

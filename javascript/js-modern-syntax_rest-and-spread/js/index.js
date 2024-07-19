@@ -6,14 +6,14 @@ console.clear();
 // and put them into "contact".
 // c) Make sure to export your variable as in the example below to make the tests work.
 
-export const person = {
+const person = {
   name: "Jane Doe",
   age: 32,
   email: "jane@doe.com",
   phone: "12345",
 };
 
-const { age, ...contact } = person;
+export const { age, ...contact } = person;
 console.log(age);
 console.log(contact);
 
@@ -24,7 +24,7 @@ console.log(contact);
 // all other items should go into a variable called "restOfList".
 
 const list = ["one", "two", "three", "four", "five"];
-const [first, second, ...restOfList] = list;
+export const [first, second, ...restOfList] = list;
 console.log(first);
 console.log(restOfList);
 // EXERCISE 3
@@ -56,6 +56,6 @@ export const result = add(...numbers);
 
 const fruits = ["apple", "banana", "orange", "papaya"];
 const anotherFruit = "cherry";
-const allFruits = [anotherFruit, ...fruits];
+export const allFruits = [anotherFruit, ...fruits];
 
 console.log(allFruits);

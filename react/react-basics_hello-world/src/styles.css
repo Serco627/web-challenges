@@ -9,3 +9,11 @@ body {
   font-family: system-ui;
   text-align: center;
 }
+
+.card {
+  background-color: green;
+  width: 500px;
+  height: 200px;
+  border: solid red 2px;
+  margin: 10px;
+}

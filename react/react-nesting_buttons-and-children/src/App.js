@@ -9,17 +9,14 @@ export default function App() {
       <Button>Hinzufügen</Button>
       <Button>Löschen</Button>
       <Button>Klick mich</Button>
-
-      {/* <Button text="Hello" /> das ist genau das gleiche wie oben, nur dass man es nicht extra für alle props dazuschreiben muss */}
     </main>
   );
 }
 
-function Button({ children, text }) {
+function Button({ children }) {
   return (
     <button className="button" type="button">
       {children}
-      {text}
     </button>
   );
 }

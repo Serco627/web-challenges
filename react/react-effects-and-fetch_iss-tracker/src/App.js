@@ -25,7 +25,8 @@ export default function App() {
   }
 
   useEffect(() => {
-    getISSCoords(); // Initial fetch on mount
+    const intervalId = setInterval(getISSCoords, 5000);
+    return () => clearInterval(intervalId);
   }, []);
 
   return (

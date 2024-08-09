@@ -1,19 +1,11 @@
 import Link from "next/link";
-import { volumes } from "@/resources/lib/data";
-import { introduction } from "@/resources/lib/data";
 
-export default function MoviesList() {
+export default function HomePage() {
   return (
-    <>
-      <p>{introduction}</p>
-      <h2>All Volumes</h2>
-      <ul>
-        {volumes.map((volume) => (
-          <li key={volume.slug}>
-            <Link href={`/volumes/${volume.slug}`}>{volume.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </>
+    <div>
+      <h1>Lord Of The Ring</h1>
+      <p>This is the starting Homepage for the Lord of the rings movies.</p>
+      <Link href="/volumes">Go to movies overview</Link>
+    </div>
   );
 }

@@ -6,11 +6,12 @@ export default function FellowshipOfTheRing() {
 
   return (
     <div>
-      <Link href="/">Back to all volumes</Link>
+      <button>
+        <Link href="/">Back to all volumes</Link>
+      </button>{" "}
       <h1>{currentVolume.title}</h1>
       <p>{currentVolume.description}</p>
       <Image alt="cover" src={currentVolume.cover} height={400} width={400} />
-
       <h2>Books for this movie:</h2>
       <ul>
         {currentVolume.books.map((book, index) => (

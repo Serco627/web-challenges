@@ -8,8 +8,8 @@ export default function App() {
   const [note, setNote] = useLocalStorageState("note", {
     defaultValue: "",
   });
-  const [font, setFont] = useLocalStorageState("system-ui", {
-    defaultValue: "",
+  const [font, setFont] = useLocalStorageState("font", {
+    defaultValue: "system-ui",
   });
 
   function handleNoteChange(newNote) {

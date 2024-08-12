@@ -8,10 +8,6 @@ export default function VolumeDetail() {
   const router = useRouter();
   const { slug } = router.query;
 
-  if (!slug) {
-    return null; // Optional: You could return a loading spinner or message here
-  }
-
   const currentVolumeIndex = volumes.findIndex(
     (volume) => volume.slug === slug
   );

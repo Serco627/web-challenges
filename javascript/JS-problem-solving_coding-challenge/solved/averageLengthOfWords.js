@@ -13,15 +13,26 @@ const words2 = [
   "mystique",
 ];
 
-function handleAverageLengthOfWords(wordsArray) {
-  let sumAllWords = 0;
-  for (let i = 0; i < wordsArray.length; i++) {
-    // Bedingung korrigiert
-    sumAllWords += wordsArray[i].length;
-  }
-  const averageLength = sumAllWords / wordsArray.length;
-  return averageLength;
-}
+let sumAllWords = 0;
 
-const averageLength = handleAverageLengthOfWords(words2);
-console.log("Average length of words is:", averageLength);
+words2.forEach((word) => {
+  sumAllWords += word.length;
+  console.log("+ the previos number: ", sumAllWords);
+});
+console.log("in total: ", sumAllWords);
+
+const averageLength = sumAllWords / words2.length;
+console.log("average length:", averageLength);
+
+// function handleAverageLengthOfWords(wordsArray) {
+//   let sumAllWords = 0;
+//   for (let i = 0; i < wordsArray.length; i++) {
+//     // Bedingung korrigiert
+//     sumAllWords += wordsArray[i].length;
+//   }
+//   const averageLength = sumAllWords / wordsArray.length;
+//   return averageLength;
+// }
+
+// const averageLength = handleAverageLengthOfWords(words2);
+// console.log("Average length of words is:", averageLength);
